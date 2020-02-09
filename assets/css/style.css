@@ -4,54 +4,78 @@ contanier {
 }
 
 /* navbar */
-.dropdown {
-    float: left;
-   box-sizing: inherit;
-   display: grid;
-   text-align: start;
-   
-}
-#dropdown-lists {
-    
-    width: 30px;
-}
 #home {
     display: inline-block;
     margin: 0 auto;
    padding: 0%;
    font-family: 'Inconsolata', monospace;
-    font-size: 40px;
+    font-size: 70px;
     
 }
 #search-input {
     padding: 7px;
+    margin: 0 auto;
 }
-.fa-search{
+.fa{
     padding: 8px;
 }
 .nav {
     overflow: hidden;
     background-color:rgb(230, 76, 76);
     color: rgb(247, 236, 240);
-    padding: 20px;
     text-align: center;
 }
-nav ul {
-    float: right;
-    list-style: none;
+nav span {
     padding: 0;
     margin-top: -1px;
     margin: 0 auto;
-}
-nav li {
     display: inline-block;
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 70px;
     font: size 14px; 
 }
+nav span {
+    float: right;
+    margin-top: 24px;
+    margin-right: 20px;
+}
+#dropdown {
+    float: left;
+    box-sizing: inherit;
+    display: grid;
+    text-align: start;
+    list-style: none;
+    margin-left: 20px;
+}
+#dropdown-lists {
+    float: left;
+    width: 30px;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 24px;
+    margin-left: 20px;
+}
 
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
 #footer {
     background-color: lightslategray;
     padding: 25px;

@@ -9,24 +9,21 @@
 </head>
 <body> <div class="contanier">
     <nav class="nav">
-        <div class="dropdown">
-            <button class="slide-bar-bt"><i class="fa fa-list"></i> </button>
-            <span id="all-event">All Events</span>
-            <span id="this-weeken">This Weeken</span>
-            <span id="foods">Foods</span>
-            <span id="concert">Concerts</span>
-            <span id="entertainment">Entertainments</span>
-        </div>
         <div class="home-page" id="home"><b>Event Spite</b></a></div>
-        <ul>
-            <li><input type="text" id="search-input" placeholder="Search for an event">
-                <button><i class="fa fa-search"></i></button></li>
-        </ul>
+        <span><input type="text" id="search-input" placeholder="Search for an event">
+        <button><i class="fa fa-search"></i></button></span>
+        <button id="dropdown-lists" onclick="lists()"><i class="fa fa-list"></i> </button>
     </nav>
+    </div>
+    <div id="dropdown"> 
+        <li id="all-event">All Events</li>
+        <li id="this-weeken">This Weeken</li>
+        <li id="foods">Foods</li>
+        <li id="concert">Concerts</li>
+        <li id="entertainment">Entertainments</li>
     </div>
     
     <footer id="footer"></footer>
     <script src="assets/js/script.js"></script>
 </div>
-</body>
-</html>
+</bo 
