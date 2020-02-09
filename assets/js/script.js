@@ -1,10 +1,12 @@
-// dropdown lists when click
-function lists () {
-    var x = document.getElementById("dropdown");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none"; 
-    }
-    console.log(x)
-}
+// create slide down function
+
+$("#dropdown-lists").click(function(){
+    $("#dropdown").slideToggle(),
+    $(this).toggleClass("active"),
+  
+    
+      $("").on("click",function(){
+        $("#dropdown").slideUp()
+         $("#dropdown-lists").removeClass("active")
+      });
+});
