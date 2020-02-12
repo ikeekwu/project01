@@ -1,60 +1,41 @@
-contanier {
+body {
+    background-image: url(https://media.giphy.com/media/CIjXMxobcEnkI/giphy.gif);
+    background-size: cover;
+
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.contanier {
     width: 80%;
     margin: 0 auto;
+    padding: 15%;
 }
 
-/* navbar */
+
 #home {
-    display: inline-block;
-    margin: 0 auto;
-   padding: 0%;
-   font-family: 'Inconsolata', monospace;
+    margin: 20px;
+    padding: 0%;
+    font-family: 'Inconsolata', monospace;
     font-size: 70px;
+    color: white;
+
     
 }
 #search-input {
     padding: 7px;
     margin: 0 auto;
+    width: 30%;
+    border-radius: 5px;
 }
-.fa{
-    padding: 8px;
+.fa-list{
+    padding: 6px;
+
 }
-.nav {
-    overflow: hidden;
-    background-color:rgb(230, 76, 76);
-    color: rgb(247, 236, 240);
-    text-align: center;
-}
-nav span {
-    padding: 0;
-    margin-top: -1px;
-    margin: 0 auto;
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
-    text-transform: uppercase;
-    font: size 14px; 
-}
-nav span {
-    float: right;
-    margin-top: 24px;
-    margin-right: 20px;
-}
-#dropdown {
-    float: left;
-    box-sizing: inherit;
-    display: grid;
-    text-align: start;
-    list-style: none;
-    margin-left: 20px;
-}
-#dropdown-lists {
-    float: left;
-    width: 30px;
-    margin: 0 auto;
-    padding: 0;
-    margin-top: 24px;
-    margin-left: 20px;
+button {
+    border-radius: 5px;
+    padding: 7px;
 
 }
 
@@ -78,6 +59,6 @@ nav span {
 
 /* Footer */
 #footer {
-    background-color: lightslategray;
+    text-align: center;
     padding: 25px;
 }
