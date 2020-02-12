@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     background-image: url(https://media.giphy.com/media/CIjXMxobcEnkI/giphy.gif);
     background-size: cover;
 
@@ -8,7 +9,7 @@ body {
     text-align: center;
 }
 .contanier {
-    width: 80%;
+ 
     margin: 0 auto;
     padding: 15%;
 }
