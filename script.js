@@ -1,22 +1,21 @@
 
 $(document).ready(function() {
    
- 
-    function displayList () {
-        $("#dropdown-lists").on("click", function() {
-            $("#dropdown").show();
-        });   
-    };
 
     function selectCategory () {
-        $("#entertainment").on("click", function() {
+        $("#searchClicked").on("click", function(event) {
+            event.preventDefault();
             $("#dropdown").hide();
             $(".card-body").show();
             $("#next-btn").show();
             $("#previous-btn").show();
+            var keywords = $("#search-input").val();
+            var dateSelected = "Today";
+           
+        
         
             var settings = {
-                url: "https://api.eventful.com/json/events/search?&app_key=3PCFhKqWmgV9xscv&keywords=entertainment&location=houston&date=This Week&sort_order=date&sort_direction=ascending",
+                url: "https://api.eventful.com/json/events/search?&app_key=3PCFhKqWmgV9xscv&keywords=" + keywords + "&location=houston&date=" + dateSelected + "&sort_order=date&sort_direction=ascending",
                 method: "GET",
                 timeout: 0,
             };
@@ -134,12 +133,11 @@ $(document).ready(function() {
             console.log(response.events.event[4].title);
             
             });
-            $("#entertainment").empty();
-            displayList();
+           
+           
         })
     }
 
-    displayList();
     selectCategory();
 
 });
