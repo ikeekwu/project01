@@ -1,6 +1,6 @@
 
 $(document).ready(function() {
-   
+
 
     function selectCategory () {
         $("#searchClicked").on("click", function(event) {
@@ -11,7 +11,7 @@ $(document).ready(function() {
             $("#previous-btn").show();
             var keywords = $("#search-input").val();
             var dateSelected = "Today";
-           
+
         
         
             var settings = {
@@ -133,8 +133,8 @@ $(document).ready(function() {
             console.log(response.events.event[4].title);
             
             });
-           
-           
+
+
         })
     }
 
