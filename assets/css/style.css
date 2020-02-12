@@ -40,7 +40,11 @@ button {
 
 }
 
-    
+#sub-text{
+    font-family: 'Inconsolata',monospace;
+    color: white;
+    margin: 20px;
+}
 
 
 
