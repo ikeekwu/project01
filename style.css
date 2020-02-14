@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    background-image: url(https://media.giphy.com/media/CIjXMxobcEnkI/giphy.gif);
+    background-size: cover;
+
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.contanier {
+ 
+    margin: 0 auto;
+    padding: 15%;
+}
+
+#home {
+    margin: 20px;
+    padding: 0%;
+    font-family: 'Inconsolata', monospace;
+    font-size: 70px;
+    color:rgb(159, 148, 243);
+    animation-name: home;
+    animation-duration: 30s;
+}
+@keyframes home {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    75%  {color: lawngreen;}
+    100% {color: green;}
+  }  
+#search-input {
+    padding: 7px;
+    margin: 0 auto;
+    width: 30%;
+    border-radius: 5px;
+}
+.fa-list{
+    padding: 6px;
+
+}
+button {
+    border-radius: 5px;
+    padding: 7px;
+}
+
+
+#footer {
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+}
